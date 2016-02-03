@@ -17,7 +17,7 @@ from PIL import Image, ImageOps # use Pillow for python3 (pip install) or PIL fo
 
 import inspect,os
 current_directory = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))) 
-data_directory = current_directory + '../data-rect/'
+data_directory = current_directory + '/../data-rect/'
 
 print('$$',data_directory)
 
